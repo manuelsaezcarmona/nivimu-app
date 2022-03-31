@@ -64,7 +64,13 @@ function App() {
         </li>
       </ol>
       <i>Estimate time: 1h</i>
-      <Table dataSource={users} columns={columns} />;
+      <Table
+        dataSource={users}
+        columns={columns}
+        pagination={{ pageSize: 5 }}
+        scroll={{ y: 240 }}
+      />
+      ;
     </div>
   );
 }

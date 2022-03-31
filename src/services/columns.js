@@ -2,15 +2,22 @@ export const columns = [
   {
     title: 'Nombre',
     dataIndex: 'fullname',
+    width: 150,
     key: 'fullname',
     defaultSortOrder: 'descend',
     sorter: (a, b) => a.fullname.length - b.fullname.length
   },
-  { title: 'Email', dataIndex: 'email', key: 'email' },
+  {
+    title: 'Email',
+    dataIndex: 'email',
+    width: 150,
+    key: 'email'
+  },
 
   {
     title: 'Ciudad',
     dataIndex: 'city',
+    width: 150,
     filters: [
       {
         text: 'Gwenborough',
