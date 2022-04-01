@@ -4,6 +4,11 @@ This sample project show a DataTable with sorting and Filter.
 
 I hope to Enjoy!!!
 
+## How to Install
+
+You must install the dependencies inside this directory type:
+`npm install`
+
 ## How to Run
 
 In the project directory, you can run:

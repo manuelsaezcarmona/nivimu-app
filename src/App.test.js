@@ -1,8 +1,23 @@
 import { render, screen } from '@testing-library/react';
+import { Provider } from 'react-redux';
+import { Table } from 'antd';
+import configureStore from './redux/store';
+
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+jest.mock('antd', () => ({
+  Table: () => {
+    const Table = 'Table';
+    return <Table />;
+  }
+}));
+
+test('renders App ', () => {
+  render(
+    <Provider store={configureStore()}>
+      <App />
+    </Provider>
+  );
+  const Element = screen.getByText(/add new component to of table/i);
+  expect(Element).toBeInTheDocument();
 });
