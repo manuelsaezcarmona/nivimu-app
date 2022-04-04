@@ -1,0 +1,216 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <h2>
+          Test instructions
+        </h2>
+        <ol>
+          <li>
+            <span>
+              Create table comp from
+              <a
+                href="https://ant.design/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Ant Design
+              </a>
+              with 3 columns: Name, Email, City.
+            </span>
+          </li>
+          <li>
+            <span>
+              Load data for table from: 
+            </span>
+            <a
+              href="https://jsonplaceholder.typicode.com/users"
+              rel="noreferrer"
+              target="_blank"
+            >
+              https://jsonplaceholder.typicode.com/users
+            </a>
+            .
+          </li>
+          <li>
+            <span>
+              Use
+              <strong>
+                <a
+                  href="https://redux.js.org/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Redux
+                </a>
+              </strong>
+              or alternative.
+            </span>
+          </li>
+          <li>
+            <span>
+              Add 
+              <strong>
+                filter
+              </strong>
+               and 
+              <strong>
+                sorter
+              </strong>
+              functionality to table
+            </span>
+          </li>
+          <li>
+            <span>
+              Add new component to 
+              <strong>
+                display always first row data
+              </strong>
+               
+              of table
+            </span>
+          </li>
+        </ol>
+        <i>
+          Estimate time: 1h
+        </i>
+        <table />
+        ;
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <h2>
+        Test instructions
+      </h2>
+      <ol>
+        <li>
+          <span>
+            Create table comp from
+            <a
+              href="https://ant.design/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Ant Design
+            </a>
+            with 3 columns: Name, Email, City.
+          </span>
+        </li>
+        <li>
+          <span>
+            Load data for table from: 
+          </span>
+          <a
+            href="https://jsonplaceholder.typicode.com/users"
+            rel="noreferrer"
+            target="_blank"
+          >
+            https://jsonplaceholder.typicode.com/users
+          </a>
+          .
+        </li>
+        <li>
+          <span>
+            Use
+            <strong>
+              <a
+                href="https://redux.js.org/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Redux
+              </a>
+            </strong>
+            or alternative.
+          </span>
+        </li>
+        <li>
+          <span>
+            Add 
+            <strong>
+              filter
+            </strong>
+             and 
+            <strong>
+              sorter
+            </strong>
+            functionality to table
+          </span>
+        </li>
+        <li>
+          <span>
+            Add new component to 
+            <strong>
+              display always first row data
+            </strong>
+             
+            of table
+          </span>
+        </li>
+      </ol>
+      <i>
+        Estimate time: 1h
+      </i>
+      <table />
+      ;
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

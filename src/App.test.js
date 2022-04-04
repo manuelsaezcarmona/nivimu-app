@@ -13,11 +13,14 @@ jest.mock('antd', () => ({
 }));
 
 test('renders App ', () => {
-  render(
+  const page = render(
     <Provider store={configureStore()}>
       <App />
     </Provider>
   );
-  const Element = screen.getByText(/add new component to of table/i);
-  expect(Element).toBeInTheDocument();
+  const ulElement = screen.getByText(/add new component to of table/i);
+  const tableElement = screen.getByRole('table');
+  expect(ulElement).toBeInTheDocument();
+  expect(tableElement).toBeInTheDocument();
+  expect(page).toMatchSnapshot();
 });
